@@ -1,0 +1,24 @@
+I, [2016-11-10T19:35:57.477553 #2672]  INFO -- default-centos-72: -----> Converging <default-centos-72>...
+I, [2016-11-10T19:35:57.480553 #2672]  INFO -- default-centos-72: Preparing files for transfer
+I, [2016-11-10T19:35:57.481053 #2672]  INFO -- default-centos-72: Preparing dna.json
+I, [2016-11-10T19:35:57.484053 #2672]  INFO -- default-centos-72: Preparing current project directory as a cookbook
+I, [2016-11-10T19:35:57.511553 #2672]  INFO -- default-centos-72: Removing non-cookbook files before transfer
+I, [2016-11-10T19:35:57.562053 #2672]  INFO -- default-centos-72: Preparing solo.rb
+I, [2016-11-10T19:35:57.809553 #2672]  INFO -- default-centos-72: -----> Chef Omnibus installation detected (install only if missing)
+I, [2016-11-10T19:35:57.849553 #2672]  INFO -- default-centos-72: Transferring files to <default-centos-72>
+I, [2016-11-10T19:35:59.750053 #2672]  INFO -- default-centos-72: Starting Chef Client, version 12.16.42
+I, [2016-11-10T19:36:01.311053 #2672]  INFO -- default-centos-72: resolving cookbooks for run list: ["rsyslog::default"]
+I, [2016-11-10T19:36:01.331553 #2672]  INFO -- default-centos-72: Synchronizing Cookbooks:
+I, [2016-11-10T19:36:01.332053 #2672]  INFO -- default-centos-72:   - rsyslog (0.1.0)
+I, [2016-11-10T19:36:01.332553 #2672]  INFO -- default-centos-72: Installing Cookbook Gems:
+I, [2016-11-10T19:36:01.333053 #2672]  INFO -- default-centos-72: Compiling Cookbooks...
+I, [2016-11-10T19:36:01.354053 #2672]  INFO -- default-centos-72: Converging 2 resources
+I, [2016-11-10T19:36:01.354553 #2672]  INFO -- default-centos-72: Recipe: rsyslog::default
+I, [2016-11-10T19:36:01.354553 #2672]  INFO -- default-centos-72:   * template[/etc/rsyslog.d/al_log_agt.conf] action create (up to date)
+I, [2016-11-10T19:36:01.404553 #2672]  INFO -- default-centos-72:   * service[rsyslog] action enable (up to date)
+I, [2016-11-10T19:36:01.465053 #2672]  INFO -- default-centos-72:   * service[rsyslog] action start (up to date)
+I, [2016-11-10T19:36:01.507053 #2672]  INFO -- default-centos-72: 
+I, [2016-11-10T19:36:01.507553 #2672]  INFO -- default-centos-72: Running handlers:
+I, [2016-11-10T19:36:01.507553 #2672]  INFO -- default-centos-72: Running handlers complete
+I, [2016-11-10T19:36:01.507553 #2672]  INFO -- default-centos-72: Chef Client finished, 0/3 resources updated in 01 seconds
+I, [2016-11-10T19:36:01.568553 #2672]  INFO -- default-centos-72: Finished converging <default-centos-72> (0m4.09s).

@@ -1,0 +1,24 @@
+I, [2016-11-10T19:35:51.890053 #2672]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2016-11-10T19:35:51.892553 #2672]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2016-11-10T19:35:51.893053 #2672]  INFO -- default-ubuntu-1404: Preparing dna.json
+I, [2016-11-10T19:35:51.894553 #2672]  INFO -- default-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2016-11-10T19:35:51.924553 #2672]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2016-11-10T19:35:51.981053 #2672]  INFO -- default-ubuntu-1404: Preparing solo.rb
+I, [2016-11-10T19:35:53.952553 #2672]  INFO -- default-ubuntu-1404: -----> Chef Omnibus installation detected (install only if missing)
+I, [2016-11-10T19:35:53.996053 #2672]  INFO -- default-ubuntu-1404: Transferring files to <default-ubuntu-1404>
+I, [2016-11-10T19:35:55.600053 #2672]  INFO -- default-ubuntu-1404: Starting Chef Client, version 12.16.42
+I, [2016-11-10T19:35:57.287553 #2672]  INFO -- default-ubuntu-1404: resolving cookbooks for run list: ["rsyslog::default"]
+I, [2016-11-10T19:35:57.313053 #2672]  INFO -- default-ubuntu-1404: Synchronizing Cookbooks:
+I, [2016-11-10T19:35:57.315053 #2672]  INFO -- default-ubuntu-1404:   - rsyslog (0.1.0)
+I, [2016-11-10T19:35:57.315553 #2672]  INFO -- default-ubuntu-1404: Installing Cookbook Gems:
+I, [2016-11-10T19:35:57.316053 #2672]  INFO -- default-ubuntu-1404: Compiling Cookbooks...
+I, [2016-11-10T19:35:57.320053 #2672]  INFO -- default-ubuntu-1404: Converging 2 resources
+I, [2016-11-10T19:35:57.322553 #2672]  INFO -- default-ubuntu-1404: Recipe: rsyslog::default
+I, [2016-11-10T19:35:57.323053 #2672]  INFO -- default-ubuntu-1404:   * template[/etc/rsyslog.d/al_log_agt.conf] action create (up to date)
+I, [2016-11-10T19:35:57.346553 #2672]  INFO -- default-ubuntu-1404:   * service[rsyslog] action enable (up to date)
+I, [2016-11-10T19:35:57.378553 #2672]  INFO -- default-ubuntu-1404:   * service[rsyslog] action start (up to date)
+I, [2016-11-10T19:35:57.409053 #2672]  INFO -- default-ubuntu-1404: 
+I, [2016-11-10T19:35:57.409553 #2672]  INFO -- default-ubuntu-1404: Running handlers:
+I, [2016-11-10T19:35:57.410053 #2672]  INFO -- default-ubuntu-1404: Running handlers complete
+I, [2016-11-10T19:35:57.411053 #2672]  INFO -- default-ubuntu-1404: Chef Client finished, 0/3 resources updated in 01 seconds
+I, [2016-11-10T19:35:57.475053 #2672]  INFO -- default-ubuntu-1404: Finished converging <default-ubuntu-1404> (0m5.58s).
